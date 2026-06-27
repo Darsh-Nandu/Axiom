@@ -11,7 +11,7 @@ LOG_DIR.mkdir(parents=True, exist_ok=True)
 LOG_FILE = LOG_DIR / "app.log"
 
 formatter = logging.Formatter(
-    "%(asctime)s | %(levelname)s-8s | %(name)s | %(message)s"
+    "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
 )
 
 file_handler = RotatingFileHandler(

@@ -4,3 +4,6 @@ llm:
   temperature: 0.7
   timeout: 60
   max_retries: 3
+
+memory:
+window_size: 50

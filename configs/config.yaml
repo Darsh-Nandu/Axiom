@@ -6,4 +6,4 @@ llm:
   max_retries: 3
 
 memory:
-window_size: 50
+  window_size: 50

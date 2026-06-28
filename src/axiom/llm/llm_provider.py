@@ -2,7 +2,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 
 from axiom.utils.logger import logger
-from axiom.configs.config import config
+from axiom.config import config
 
 from typing import Optional
 from dotenv import load_dotenv

@@ -17,3 +17,6 @@ clean:
 	rm -rf build dist *.egg-info
 	find . -type d -name "__pycache__" -exec rm -rf {} +
 	find . -type f -name "*.pyc" -delete
+
+mcp:
+    PYTHONPATH=src python -m axiom.mcp.mcp

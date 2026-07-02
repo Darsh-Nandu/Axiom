@@ -1,0 +1,1 @@
+2026-07-01 20:14:08,370 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
